@@ -1,0 +1,15 @@
+vim cheatsheet
+-------------
+Navigation
+w b                   - To move forward and backward
+dw                    - To delete from current point to end of word
+) (                   - Move forward and backward one sentence
+ctrl-d                - Move down half a page
+ctrl-u                - Move up half a page
+:5                    - Go to line 5
+gg and G              - Go to the top and bottom of file
+
+a                     - Append after cursor (useful after $ to go to end of line)
+A                     - Append at the end of the line
+u and ctrl-r          - To undo and redo
+. (dot)               - Repeat last action (put a 5 before to repeat 5 times)
