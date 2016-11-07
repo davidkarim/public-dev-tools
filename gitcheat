@@ -1,0 +1,16 @@
+git cheatsheet
+-------------
+git show (or git diff HEAD^ HEAD)                   - Compare current commit to previous (HEAD^ is previous commit)
+git diff					    - Show unstaged changes made since last commit
+git diff --cached				    - Show changes staged for commit
+git diff HEAD					    - Show changes staged and unstaged since last commit
+
+Branches
+git branch -r					    - List local and remote branches
+git branch new-branch				    - Create branch named new-branch based on current
+git checkout new-branch				    - Switch to branch named new-branch
+git checkout -b new-branch			    - Create new branch based on current and switch to it
+git branch -D new-branch			    - Force delete the local branch
+
+Resetting
+git reset --hard				    - Throw away all local changes since last commit, reset index and HEAD
