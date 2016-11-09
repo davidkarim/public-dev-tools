@@ -1,0 +1,14 @@
+#!/usr/bin/ruby
+
+alpha = ("A".."Z").to_a.zip(("a".."z").to_a).flatten!
+result = []
+result << alpha.sample
+alphanum = alpha
+alphanum.push(("0".."9").to_a).flatten!
+special = ["!","#","$","%","&","@","?"]
+alphanumspecial = alphanum
+alphanumspecial.push(special).flatten!
+19.times do
+  result << alphanumspecial.sample
+end
+puts result.join

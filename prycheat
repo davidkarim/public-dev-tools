@@ -1,0 +1,8 @@
+pry cheatsheet
+-------------
+hist --tail 5	      - Show last 5 entries
+edit -i 5..10	      - Open editor with those entries
+Underscore	      - Recall last output
+
+User Input Page: https://github.com/pry/pry/wiki/User-Input#Edit_input_buffer
+
