@@ -4,6 +4,8 @@ git show (or git diff HEAD^ HEAD)                   - Compare current commit to 
 git diff					    - Show unstaged changes made since last commit
 git diff --cached				    - Show changes staged for commit
 git diff HEAD					    - Show changes staged and unstaged since last commit
+git diff origin/master master			    - Compare Github to local branch commit (assumes local is working copy)
+See here for unified format hunk (@@): http://www.gnu.org/software/diffutils/manual/diffutils.html#Detailed-Unified
 
 Branches
 git branch -r					    - List local and remote branches
