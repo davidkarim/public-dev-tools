@@ -7,6 +7,7 @@ tree -d -L 1				- Show graphical view of directories
 
 grep . -rnwl -e "park"			- Search for occurrences of word "park" under current directory (can be regex)
 grep . -rnw -e "park"			- Search for occurrences, show files and lines
+sed '10!d' !$				- Print out 10th line of previous file
 
 echo "* 2 * 4 * root" | cut -d " " -f 1,6 # Outputs * root
 
