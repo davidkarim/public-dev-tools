@@ -1,4 +1,4 @@
-#!/usr/bin/ruby
+#!/usr/bin/env ruby
 
 alpha = ("A".."Z").to_a.zip(("a".."z").to_a).flatten!
 result = []
