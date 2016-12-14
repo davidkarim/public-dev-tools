@@ -17,3 +17,4 @@ git branch -D old-branch			    - Force delete the local branch called old-branch
 Resetting
 git reset --hard				    - Throw away all local changes since last commit, reset index and HEAD
 git reset HEAD~	 				    - Undo last commit, leave working tree as is.
+git reset filename				    - Remove a file from staging area (no filename removes all)
