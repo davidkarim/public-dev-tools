@@ -5,6 +5,12 @@ ls -d */				- View only directories under current one
 sudo du -h / | grep '[0-9\.]\+G'	- Which files are taking up too much space
 du -hd 1 | sort -hr			- Size of all directories under current
 tree -d -L 1				- Show graphical view of directories
+view <filename>				- Same as vim -R (vim in view mode)
+sudo !!					- Use double ! to repeat last command
+!^ !$					- First argument / last argument of last command
+rm/mkdir -- $symbol_dir			- Remove / make dirs that start with symbol
+icdiff README{,-old}.md			- Compare README.md with README-old.md (brew install)
+ls | pbcopy and pbpaste	> file		- Copy / paste from terminal to clipboard.
 
 grep . -rnwl -e "park"			- Search for occurrences of word "park" under current directory (can be regex)
 grep . -rnw -e "park"			- Search for occurrences, show files and lines
