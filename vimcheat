@@ -17,6 +17,10 @@ u and ctrl-r          - To undo and redo
 . (dot)               - Repeat last action (put a 5 before to repeat 5 times)
 :sav <file>	      - Save file with new name (switch to that file)
 :w <file>	      - Save file with new name (stay on original)
+
+Vjjj>		      - Indent 4 lines (also do 4>>, or 3> indents selection 3 times)
+v		      - Character based selection
+
 Full list: w3m http://www.keyxl.com/aaa8263/290/VIM-keyboard-shortcuts.htm
 -- Tail this last command and pipe to sh to execute --
 $(cat ~/Documents/Tools/public-dev-tools/vimcheat | grep "Full list" | cut -d " " -f 3-4)
