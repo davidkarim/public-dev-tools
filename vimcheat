@@ -10,7 +10,8 @@ ctrl-u                - Move up half a page
 gg and G              - Go to the top and bottom of file
 H M L                 - Go to TOP MIDDLE BOTTOM of screen
 
-*                     - Search for word under cursor.
+*                     - Search for word under cursor (n for next occurrence)
+[I                    - Show lines with matching word under cursor
 a                     - Append after cursor (useful after $ to go to end of line)
 A                     - Append at the end of the line
 u and ctrl-r          - To undo and redo
@@ -18,8 +19,12 @@ u and ctrl-r          - To undo and redo
 :sav <file>	      - Save file with new name (switch to that file)
 :w <file>	      - Save file with new name (stay on original)
 
-Vjjj>		      - Indent 4 lines (also do 4>>, or 3> indents selection 3 times)
+Vjjj>		      - Indent 4 lines from cursor (also do 4>>)
 v		      - Character based selection
+
+ctrl-v,jj,I,text,ESC  - Insert letter I at beginning of a block (visual block mode)
+:%s/^/  /             - Insert 2 spaces at beginning of every line (% means search file)
+:s/ab/ac/g            - Replace all ab with ac for current line
 
 Full list: w3m http://www.keyxl.com/aaa8263/290/VIM-keyboard-shortcuts.htm
 -- Tail this last command and pipe to sh to execute --
