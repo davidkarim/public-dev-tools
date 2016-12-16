@@ -12,6 +12,7 @@ H M L                 - Go to TOP MIDDLE BOTTOM of screen
 
 *                     - Search for word under cursor (n for next occurrence)
 [I                    - Show lines with matching word under cursor
+:noh or ctrl-l        - Remove search highlights
 a                     - Append after cursor (useful after $ to go to end of line)
 A                     - Append at the end of the line
 u and ctrl-r          - To undo and redo
