@@ -10,7 +10,7 @@ ctrl-u                - Move up half a page
 gg and G              - Go to the top and bottom of file
 H M L                 - Go to TOP MIDDLE BOTTOM of screen
 
-*                     - Search for word under cursor (n for next occurrence)
+* or #                - Search for next (or last) word under cursor (n for next)
 [I                    - Show lines with matching word under cursor
 :noh or ctrl-l        - Remove search highlights
 a                     - Append after cursor (useful after $ to go to end of line)

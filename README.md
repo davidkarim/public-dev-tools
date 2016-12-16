@@ -6,3 +6,4 @@ This is a repo housing my software development toolbelt.
 * gitcheat  - Usefule git commands
 * prycheat  - Helpful commands when using pry
 * bashcheat - Helpful bash commands
+* vimrc     - Configuration for vim
