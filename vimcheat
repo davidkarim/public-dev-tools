@@ -19,13 +19,16 @@ u and ctrl-r          - To undo and redo
 . (dot)               - Repeat last action (put a 5 before to repeat 5 times)
 :sav <file>	      - Save file with new name (switch to that file)
 :w <file>	      - Save file with new name (stay on original)
+:his or q:            - Command history
 
 Vjjj>		      - Indent 4 lines from cursor (also do 4>>)
 v		      - Character based selection
+viw                   - Visually select inner word, follow with x to delete
 
 ctrl-v,jj,I,text,ESC  - Insert letter I at beginning of a block (visual block mode)
 :%s/^/  /             - Insert 2 spaces at beginning of every line (% means search file)
 :s/ab/ac/g            - Replace all ab with ac for current line
+:g/profile/d          - Delete all lines containing "profile"
 
 Full list: w3m http://www.keyxl.com/aaa8263/290/VIM-keyboard-shortcuts.htm
 -- Tail this last command and pipe to sh to execute --
