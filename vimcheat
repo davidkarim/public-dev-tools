@@ -21,11 +21,12 @@ u and ctrl-r          - To undo and redo
 :w <file>	      - Save file with new name (stay on original)
 :his or q:            - Command history
 
-Vjjj>		      - Indent 4 lines from cursor (also do 4>>)
-v		      - Character based selection
+Vjjj>		          - Indent 4 lines from cursor (also do 4>>)
+v		              - Character based selection
 viw                   - Visually select inner word, follow with x to delete
+:set nonu or nu       - Show line numbers
 
-ctrl-v,jj,I,text,ESC  - Insert letter I at beginning of a block (visual block mode)
+ctrl-v,jj,I,text,ESC  - Insert text at beginning of a block (visual block mode)
 :%s/^/  /             - Insert 2 spaces at beginning of every line (% means search file)
 :s/ab/ac/g            - Replace all ab with ac for current line
 :g/profile/d          - Delete all lines containing "profile"

@@ -7,6 +7,7 @@ set ruler               " show the cursor position
 syntax on               " syntax highlighting
 set hlsearch            " highlight the last searched term
 filetype plugin on      " use the file type plugins
+filetype indent on      " Auto-indent based on language
 set shiftwidth=2        " Indent 2 characters
 set softtabstop=2       " Tab key in insert can insert tab or space
 set tabstop=8           " Number of spaces for tab character
