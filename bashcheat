@@ -4,7 +4,7 @@ uname -a OR cat /etc/*release		- See OS version
 w                                       - See who is logged in
 id <account>                            - See info for each account, like groups
 ls -d */				- View only directories under current one
-sudo du -h / | grep '[0-9\.]\+G'	- Which files are taking up too much space
+sudo du -h / | egrep '[0-9\.]+G'        - Which files are taking up too much space
 du -hd 1 | sort -hr			- Size of all directories under current
 tree -d -L 1				- Show graphical view of directories
 view <filename>				- Same as vim -R (vim in view mode)
