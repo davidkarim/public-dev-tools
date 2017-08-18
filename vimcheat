@@ -17,6 +17,7 @@ a                     - Append after cursor (useful after $ to go to end of line
 A                     - Append at the end of the line
 u and ctrl-r          - To undo and redo
 . (dot)               - Repeat last action (put a 5 before to repeat 5 times)
+@:		      - Repeat last command-line change
 :sav <file>	      - Save file with new name (switch to that file)
 :w <file>	      - Save file with new name (stay on original)
 :his or q:            - Command history
