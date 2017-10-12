@@ -9,7 +9,7 @@ du -hd 1 | sort -hr			- Size of all directories under current
 tree -d -L 1				- Show graphical view of directories
 view <filename>				- Same as vim -R (vim in view mode)
 sudo !!					- Use double ! to repeat last command
-!^ !$					- First argument / last argument of last command
+!^  !$  $?				- First / last argument / return value of last command
 rm/mkdir -- $symbol_dir			- Remove / make dirs that start with symbol
 icdiff README{,-old}.md			- Compare README.md with README-old.md (brew install)
 ls | pbcopy and pbpaste	> file		- Copy / paste from terminal to clipboard.
@@ -24,6 +24,7 @@ imgcat <img_file>			- iTerm2 add-on script to display images
 echo "* 2 * 4 * root" | cut -d " " -f 1,6 # Outputs * root
 
 ranger                                  - Command-line tool to view directory structure
+watch -n 5 'docker ps'			- Continuously refresh this command
 
 Speedtest: wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test100.zip
 -- Tail this last command and pipe to sh to execute --
