@@ -19,3 +19,4 @@ git reset --hard				    - Throw away all local changes since last commit, reset 
 git reset HEAD~	 				    - Undo last commit, leave working tree as is.
 git reset HEAD <file>                               - Remove this file from staging.
 git reset filename				    - Remove a file from staging area (no filename removes all)
+git rm --cached <file_name>                         - Stop tracking a file, added to .gitignore
