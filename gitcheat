@@ -20,3 +20,9 @@ git reset HEAD~	 				    - Undo last commit, leave working tree as is.
 git reset HEAD <file>                               - Remove this file from staging.
 git reset filename				    - Remove a file from staging area (no filename removes all)
 git rm --cached <file_name>                         - Stop tracking a file, added to .gitignore
+
+Tags
+git show					    - View git objects; including tags
+git tag -a v1.0 -m "message"			    - Add annotated tag
+git tag --delete <tagname>			    - Delete tag locally
+git push origin v1.0				    - Push this tag to remote
