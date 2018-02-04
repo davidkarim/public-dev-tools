@@ -26,3 +26,5 @@ git show					    - View git objects; including tags
 git tag -a v1.0 -m "message"			    - Add annotated tag
 git tag --delete <tagname>			    - Delete tag locally
 git push origin v1.0				    - Push this tag to remote
+git checkout v1.0				    - Checkout tag, but in detached HEAD state
+git checkout -b <new_branch> v1.0		    - Checkout tag to new branch (avoid detached HEAD)
