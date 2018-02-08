@@ -1,6 +1,7 @@
 pry cheatsheet
 -------------
 hist --tail 5	      - Show last 5 entries
+hist -an -T 10	      - Show last 10 history, without numbers
 edit -i 5..10	      - Open editor with those entries
 Underscore	      - Recall last output
 
