@@ -26,6 +26,9 @@ echo "* 2 * 4 * root" | cut -d " " -f 1,6 # Outputs * root
 ranger                                  - Command-line tool to view directory structure
 watch -n 5 'docker ps'			- Continuously refresh this command
 
+ctrl-r & ctrl-s				- Search backward and forward in history
+hh					- Alternative to ctrl-r (installed by brew)
+
 Speedtest: wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test100.zip
 -- Tail this last command and pipe to sh to execute --
 $(cat ~/Documents/Tools/public-dev-tools/bashcheat | grep Speedtest | cut -d " " -f 2-5)
