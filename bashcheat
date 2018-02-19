@@ -25,6 +25,7 @@ echo "* 2 * 4 * root" | cut -d " " -f 1,6 # Outputs * root
 
 ranger                                  - Command-line tool to view directory structure
 watch -n 5 'docker ps'			- Continuously refresh this command
+glances					- Alternative to htop (installed by brew)
 
 ctrl-r & ctrl-s				- Search backward and forward in history
 hh					- Alternative to ctrl-r (installed by brew)

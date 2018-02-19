@@ -29,6 +29,7 @@ viw                   - Visually select inner word, follow with x to delete
 
 ctrl-v,jj,I,text,ESC  - Insert text at beginning of a block (visual block mode)
 :%s/^/  /             - Insert 2 spaces at beginning of every line (% means search file)
+:%s/$/,/	      - Insert comma at the end of every line
 :s/ab/ac/g            - Replace all ab with ac for current line
 :g/profile/d          - Delete all lines containing "profile"
 
