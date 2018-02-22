@@ -1,6 +1,7 @@
 git cheatsheet
 -------------
 git show (or git diff HEAD^ HEAD)                   - Compare current commit to previous (HEAD^ is previous commit)
+git config -l					    - View git settings
 git diff					    - Show unstaged changes made since last commit
 git diff --cached				    - Show changes staged for commit
 git diff HEAD					    - Show changes staged and unstaged since last commit
