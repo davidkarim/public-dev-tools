@@ -1,0 +1,12 @@
+Docker cheatsheet
+-----------------
+docker pull ubuntu:16.04          - Pull an image
+docker run -it ubuntu:16.04       - Run image in interactive mode (no need to pull first)
+
+Erase old containers:
+docker ps --filter "status=exited" | grep 'weeks ago' | awk '{print $1}' | xargs docker rm
+
+Erase 10 oldest untagged images:
+docker images | grep "<none>" | awk '{print $3}' | tail -n 10 | xargs docker rmi
+OR
+docker rmi $(docker images -q)
