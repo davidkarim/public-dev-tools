@@ -16,6 +16,7 @@ ls | pbcopy and pbpaste	> file		- Copy / paste from terminal to clipboard.
 echo 'one two' | awk -v N=2 '{print $N}'- Print the Nth space separated field in a row
 sed -i -e 's/^/export /' file           - Insert 'export' to start of every line in file
 find /tmp -mtime +14 | xargs rm		- Find files older than 2 weeks in /tmp and remove them
+find . -name '*.c' | xargs grep 'std'	- Find all c files, then search for term inside files
 
 grep . -rnwl -e "park"			- Search for occurrences of word "park" under current directory (can be regex)
 grep . -rnw -e "park"			- Search for occurrences, show files and lines
