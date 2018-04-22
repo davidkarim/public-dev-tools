@@ -10,6 +10,7 @@ show-doc String#camelcase	- Show documentation for this method
 app.users_path			- Show URL of given named route
 app.get "/"			- Send get request to root
 app.get app.user_path(@user)	- Example of get request
+helper.link_to("name",app.path)	- Evaluate link_to
 
 User Input Page: https://github.com/pry/pry/wiki/User-Input#Edit_input_buffer
 
