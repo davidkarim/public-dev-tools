@@ -5,4 +5,5 @@ ctrl-r					- Uses fzf (fuzzy search) to search history
 bat					- Better version of cat (has / search)
 glances					- Better version of htop (also in bash)
 prettyping                            	- Better version of ping
+preview					- Fuzzy search of current directory and preview files
 ls *.rb | entr -r ruby main.rb		- When those Ruby files change, run main.rb
