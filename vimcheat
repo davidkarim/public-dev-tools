@@ -35,6 +35,17 @@ ctrl-v,jj,I,text,ESC  - Insert text at beginning of a block (visual block mode)
 :s/ab/ac/g            - Replace all ab with ac for current line
 :g/profile/d          - Delete all lines containing "profile"
 
+ctrl-z                 - Suspend vim temporarily (go to shell)
+fg                     - While in shell, use fg to bring vim back to foreground.
+
+ctrl-p                 - Fuzzy find (https://github.com/ctrlpvim/ctrlp.vim)
+
+NERDTree: https://github.com/preservim/nerdtree
+NERDTree shortcuts (see ~/.vimrc file):
+ctrl-t                - Toggle navigation
+\b                    - List buffers
+:bd1                  - Close buffer 1
+
 Full list: w3m http://www.keyxl.com/aaa8263/290/VIM-keyboard-shortcuts.htm
 -- Tail this last command and pipe to sh to execute --
 $(cat ~/Documents/Tools/public-dev-tools/vimcheat | grep "Full list" | cut -d " " -f 3-4)
