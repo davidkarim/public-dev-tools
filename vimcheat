@@ -37,6 +37,7 @@ ctrl-v,jj,I,text,ESC  - Insert text at beginning of a block (visual block mode)
 
 ctrl-z                 - Suspend vim temporarily (go to shell)
 fg                     - While in shell, use fg to bring vim back to foreground.
+:!ls                   - The :! executes a shell command, in this case, ls
 
 ctrl-p                 - Fuzzy find (https://github.com/ctrlpvim/ctrlp.vim)
 
@@ -45,6 +46,9 @@ NERDTree shortcuts (see ~/.vimrc file):
 ctrl-t                - Toggle navigation
 \b                    - List buffers
 :bd1                  - Close buffer 1
+
+Official vim tutor:
+https://github.com/vim/vim/blob/master/runtime/tutor/tutor
 
 Full list: w3m http://www.keyxl.com/aaa8263/290/VIM-keyboard-shortcuts.htm
 -- Tail this last command and pipe to sh to execute --
