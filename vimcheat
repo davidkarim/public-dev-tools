@@ -3,6 +3,7 @@ vim cheatsheet
 Navigation
 W E B                 - To move forward and backward by words
 dw                    - To delete from current point to end of word
+d0                    - To delete from current point to beginning of line
 ) (                   - Move forward and backward one sentence
 ctrl-d                - Move down half a page
 ctrl-u                - Move up half a page
