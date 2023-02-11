@@ -30,9 +30,13 @@ viw                   - Visually select inner word, follow with x to delete
 :set nonu or nu       - Show line numbers
 
 ctrl-v,jj,I,text,ESC  - Insert text at beginning of a block (visual block mode)
+
+Find and Replace (use % to search entire file)
+
 :%s/^/  /             - Insert 2 spaces at beginning of every line (% means search file)
-:%s/$/,/	      - Insert comma at the end of every line
-:%s/\\n/\r/g	      - Fix text files that show \n
+:%s/foo/bar/gc        - Replace all foo with bar, confirm replacements.
+:%s/$/,/	            - Insert comma at the end of every line
+:%s/\\n/\r/g	        - Fix text files that show \n
 :s/ab/ac/g            - Replace all ab with ac for current line
 :g/profile/d          - Delete all lines containing "profile"
 
