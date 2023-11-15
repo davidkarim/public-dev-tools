@@ -5,6 +5,7 @@ git config -l					    - View git settings
 git diff					    - Show unstaged changes made since last commit
 git diff --cached				    - Show changes staged for commit
 git diff HEAD					    - Show changes staged and unstaged since last commit
+git diff HEAD <file>                               - Show changes to current file since last commit
 git diff origin/master master			    - Compare Github to local branch commit (assumes local is working copy)
 See here for unified format hunk (@@): http://www.gnu.org/software/diffutils/manual/diffutils.html#Detailed-Unified
 
